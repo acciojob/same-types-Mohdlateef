@@ -2,15 +2,15 @@ function isSameType(value1, value2) {
   //your js code here
 	if(typeof(value1)==number&&typeof(value2)==number)
 	{
-		console.log("true");
+		return true;
 	}
 	if(typeof(value1)==string&&typeof(value2)==string)
 	{
-		console.log("true");
+		return true;
 	}
 	else
 	{
-		console.log("false");
+		return true;
 	}
 	
 	
